@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/akbar"
+    tools:context="com.example.majidm.sra.Orders">
+
+    <TextView
+        android:id="@+id/msg_txt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="#fff"
+        android:textSize="18dp"
+        android:padding="5dp"
+        android:textAlignment="center"
+        android:text=""/>
+    <ListView
+        android:id="@+id/orders_listView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:dividerHeight="3dp"
+        android:divider="@color/colorPrimaryDark">
+
+    </ListView>
+
+</LinearLayout>

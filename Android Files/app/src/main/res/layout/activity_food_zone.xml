@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/foodg"
+    tools:context="com.example.majidm.sra.FoodZone">
+
+    <ListView
+        android:id="@+id/foodzone_listView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="1dp"
+        android:paddingTop="30dp"
+        android:paddingBottom="30dp"
+        android:divider="#000"
+        android:dividerHeight="2dp"
+        />
+
+</LinearLayout>

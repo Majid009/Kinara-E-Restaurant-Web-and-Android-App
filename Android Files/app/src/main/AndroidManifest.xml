@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.majidm.sra">
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="Kinara E-Restaurant"
+        android:roundIcon="@drawable/icon"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Wellcome">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".login"
+            android:label="Login" />
+        <activity
+            android:name=".register"
+            android:label="Register" />
+        <activity
+            android:name=".forget"
+            android:label="Forget Password" />
+        <activity
+            android:name=".Main_Menu"
+            android:label="@string/title_activity_main__menu"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Tables"
+            android:label="Table Reservations" />
+        <activity
+            android:name=".Rooms"
+            android:label="Room Reservations" />
+        <activity android:name=".Cart" />
+        <activity
+            android:name=".db_login"
+            android:label="Delivery Boy Login" />
+        <activity
+            android:name=".db_panel"
+            android:label="Delivery Boy" />
+        <activity
+            android:name=".RateUs"
+            android:label="Rate Us" />
+        <activity
+            android:name=".FoodZone"
+            android:label="Food Zone" />
+        <activity android:name=".Orders" />
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/. 
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyBieu1JKu1z3yqbL-60Wv54rt2Hh0gnQnA" />
+
+        <activity
+            android:name=".track"
+            android:label="@string/title_activity_track" />
+        <activity android:name=".add_billing" />
+        <activity android:name=".reservations" />
+        <activity android:name=".messages"></activity>
+    </application>
+
+</manifest>

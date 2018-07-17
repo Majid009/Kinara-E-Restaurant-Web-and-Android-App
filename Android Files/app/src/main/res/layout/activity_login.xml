@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/akbar"
+    tools:context="com.example.majidm.sra.login">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/login_icon"
+        android:layout_marginLeft="140dp"
+        android:layout_marginRight="60dp"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Please provide the correct information to get access..."
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:maxLines="1"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="20dp"/>
+
+    <EditText
+        android:id="@+id/email_feild"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="E-mail"
+        android:layout_marginTop="20dp"
+        android:padding="10dp"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:background="@drawable/rounded"
+        android:layout_marginRight="30dp"
+        android:maxLines="1"
+        android:layout_marginLeft="30dp"/>
+
+    <EditText
+        android:id="@+id/password_feild"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:textAllCaps="false"
+        android:inputType="textPassword"
+        android:layout_marginTop="30dp"
+        android:padding="10dp"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:background="@drawable/rounded"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"/>
+
+    <Button
+        android:layout_width="130dp"
+        android:layout_height="50dp"
+        android:text="Login"
+        android:textAllCaps="false"
+        android:onClick="onLogin"
+        android:layout_marginTop="30dp"
+       android:layout_gravity="center"
+        android:padding="10dp"
+        android:background="@drawable/rounded"
+        android:textSize="20dp" />
+
+    <!--<Button-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="Forget Password"-->
+        <!--android:onClick="onForget"-->
+        <!--android:textAllCaps="false"-->
+        <!--android:layout_marginTop="20dp"-->
+        <!--android:layout_marginLeft="60dp"-->
+        <!--android:layout_marginRight="60dp"-->
+        <!--android:padding="10dp"-->
+        <!--android:background="@drawable/rounded"-->
+        <!--android:textSize="20dp"/>-->
+
+</LinearLayout>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--suppress AndroidDomInspection -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="30dp"
+    android:paddingRight="30dp"
+    android:background="@drawable/akbar"
+    tools:context="com.example.majidm.sra.Wellcome"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/main_logo"
+        android:layout_marginTop="40dp"
+        android:gravity="center"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:onClick="onLogin"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:text="Login"
+            android:padding="10dp"
+            android:background="@drawable/rounded"
+            android:textColor="#000"
+            android:textSize="20dp"
+            android:layout_gravity="center"
+            android:textAllCaps="false"
+            android:layout_marginRight="20dp"
+            />
+
+        <Button
+            android:onClick="onRegister"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:text="Register"
+            android:padding="10dp"
+            android:background="@drawable/rounded"
+            android:textColor="#000"
+            android:layout_marginLeft="17dp"
+            android:textSize="20dp"
+            android:textAllCaps="false"/>
+    </LinearLayout>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Delivery Boy Login"
+        android:onClick="on_db_login"
+        android:layout_marginTop="30dp"
+        android:textAllCaps="false"
+        android:background="@drawable/rounded"
+        android:textColor="#000"
+        android:padding="10dp"
+        android:textSize="20dp"/>
+
+</LinearLayout>

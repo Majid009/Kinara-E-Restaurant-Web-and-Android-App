@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/akbar"
+    tools:context="com.example.majidm.sra.add_billing">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Billing Address"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"/>
+
+    <EditText
+        android:id="@+id/street_address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Street address"
+        android:layout_marginTop="20dp"
+        android:textColor="#000"
+        android:padding="10dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"/>
+
+    <EditText
+        android:id="@+id/city"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="City"
+        android:layout_marginTop="20dp"
+        android:padding="10dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"/>
+
+    <EditText
+        android:id="@+id/moblie_no"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Mobile No"
+        android:layout_marginTop="20dp"
+        android:padding="10dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"/>
+
+    <EditText
+        android:id="@+id/landline_no"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Landline No"
+        android:layout_marginTop="20dp"
+        android:padding="10dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"/>
+
+    <EditText
+        android:id="@+id/po_box_no"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="PO Box No"
+        android:layout_marginTop="20dp"
+        android:padding="10dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"/>
+
+    <Button
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:text="Add"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:onClick="onAdd"
+        android:padding="10dp"
+        android:background="@drawable/rounded"
+        android:textSize="20dp"
+        android:textAllCaps="false"/>
+
+</LinearLayout>

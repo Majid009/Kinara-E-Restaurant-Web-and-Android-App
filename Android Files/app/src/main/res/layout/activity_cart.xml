@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/akbar"
+    tools:context="com.example.majidm.sra.Cart">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Change Item Quantity"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        android:textColor="#000"/>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Quantity: "
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:textSize="18dp"/>
+
+        <Spinner
+            android:id="@+id/quantity_spinner"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:background="@drawable/rounded">
+        </Spinner>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Item Id: "
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:layout_marginLeft="15dp"
+            android:textSize="18dp"/>
+
+        <Spinner
+            android:id="@+id/ids_spinner"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:background="@drawable/rounded">
+        </Spinner>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:text="Update"
+            android:background="@drawable/rounded"
+            android:textAllCaps="false"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:layout_marginLeft="10dp"
+            android:onClick="onUpdate"/>
+
+    </LinearLayout>
+    <TextView
+        android:id="@+id/total_txt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:layout_marginLeft="20dp"
+        android:gravity="right"
+        android:paddingRight="10dp"
+        />
+
+    <ListView
+        android:id="@+id/cart_listView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:dividerHeight="2dp"
+        android:divider="#fff">
+
+    </ListView>
+
+    </LinearLayout>

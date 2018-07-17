@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/akbar"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.majidm.sra.Main_Menu"
+    tools:showIn="@layout/app_bar_main__menu">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:gravity="center">
+
+        <Button
+            android:layout_width="145dp"
+            android:layout_height="90dp"
+            android:text="Tables"
+            android:onClick="Tables"
+            android:layout_margin="10dp"
+            android:textAllCaps="false"
+            android:textSize="26dp"
+            android:textStyle="bold"
+            android:background="@drawable/butons_main"
+            android:textColor="#000"/>
+
+        <Button
+            android:layout_width="145dp"
+            android:layout_height="90dp"
+            android:text="Rooms"
+            android:onClick="Rooms"
+            android:layout_margin="10dp"
+            android:textAllCaps="false"
+            android:textSize="26dp"
+            android:textStyle="bold"
+            android:background="@drawable/butons_main"
+            android:textColor="#000"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:gravity="center">
+
+        <Button
+            android:layout_width="145dp"
+            android:layout_height="90dp"
+            android:text="Foods"
+            android:onClick="Foods"
+            android:layout_margin="10dp"
+            android:textAllCaps="false"
+            android:textSize="26dp"
+            android:textStyle="bold"
+            android:background="@drawable/butons_main"
+            android:textColor="#000"/>
+
+        <Button
+            android:layout_width="145dp"
+            android:layout_height="90dp"
+            android:text="Orders"
+            android:onClick="Orders"
+            android:layout_margin="10dp"
+            android:textAllCaps="false"
+            android:textSize="26dp"
+            android:textStyle="bold"
+            android:background="@drawable/butons_main"
+            android:textColor="#000"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:gravity="center">
+
+        <Button
+            android:layout_width="145dp"
+            android:layout_height="90dp"
+            android:text="Cart"
+            android:onClick="Cart"
+            android:layout_margin="10dp"
+            android:textAllCaps="false"
+            android:textSize="26dp"
+            android:textStyle="bold"
+            android:background="@drawable/butons_main"
+            android:textColor="#000"/>
+
+        <Button
+            android:layout_width="145dp"
+            android:layout_height="90dp"
+            android:text="Rate us"
+            android:onClick="Rate_us"
+            android:layout_margin="10dp"
+            android:textAllCaps="false"
+            android:textSize="26dp"
+            android:textStyle="bold"
+            android:background="@drawable/butons_main"
+            android:textColor="#000"/>
+
+
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:gravity="center">
+
+        <Button
+            android:layout_width="160dp"
+            android:layout_height="90dp"
+            android:text="Reservations"
+            android:onClick="Reservations"
+            android:layout_margin="10dp"
+            android:textAllCaps="false"
+            android:textSize="26dp"
+            android:textStyle="bold"
+            android:background="@drawable/butons_main"
+            android:textColor="#000"/>
+
+        <Button
+            android:layout_width="130dp"
+            android:layout_height="90dp"
+            android:text="Messages"
+            android:onClick="Messages"
+            android:layout_margin="10dp"
+            android:textAllCaps="false"
+            android:textSize="26dp"
+            android:textStyle="bold"
+            android:background="@drawable/butons_main"
+            android:textColor="#000"/>
+
+        </LinearLayout>
+
+
+</LinearLayout>

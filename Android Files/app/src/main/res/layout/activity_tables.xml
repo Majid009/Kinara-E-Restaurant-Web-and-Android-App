@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:isScrollContainer="true"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp"
+    android:paddingLeft="40dp"
+    android:paddingRight="40dp"
+    android:background="@drawable/akbar"
+    tools:context="com.example.majidm.sra.Tables">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#00ffffff"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Select Table"
+            android:textSize="20dp"
+            android:textColor="#000"/>
+
+        <Spinner
+            android:id="@+id/tables_spinner"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:padding="8dp"
+            android:background="@drawable/rounded" />
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select Reservation Time"
+        android:textAllCaps="false"
+        android:background="@drawable/rounded"
+        android:textColor="#000"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:onClick="onSelectTime"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select Reservation Date"
+        android:textAllCaps="false"
+        android:background="@drawable/rounded"
+        android:textColor="#000"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:onClick="onSelectDate"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="Reserve Table"
+        android:onClick="onReserve"
+        android:textAllCaps="false"
+        android:background="@drawable/rounded"
+        android:textColor="#000"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/table_txt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Please Select Table"
+        android:gravity="center"
+        android:padding="10dp"
+        android:textColor="#000"
+        android:background="#00ffffff"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:id="@+id/time_txt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Please Select Time"
+        android:background="#00ffffff"
+        android:padding="10dp"
+        android:textColor="#000"
+        android:gravity="center"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:id="@+id/date_txt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textSize="20dp"
+        android:background="#00ffffff"
+        android:padding="10dp"
+        android:textColor="#000"
+        android:gravity="center"
+        android:text="Please Select Date"/>
+
+
+
+</LinearLayout>
