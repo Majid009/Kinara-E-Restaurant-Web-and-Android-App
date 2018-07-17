@@ -1,0 +1,419 @@
+html,body {
+margin:0;
+padding:0;
+width:100%;height:100%;
+}
+
+p , h1 , h2 , h3{
+	font-family: cambria;
+}
+
+
+a img{
+border:0;
+}
+
+a{
+	color: #a64bf4;
+	text-decoration: none;
+}
+a:hover{
+	color: #a64bf4;
+	text-decoration: none;
+}
+
+a.hidden {
+text-decoration: none;
+color: #000000;
+cursor:default;
+}
+/* ================== Billing Details ========================== */
+
+#bill_heading{
+	background: lightgray;
+	padding: 10px;
+	/* color: white; */
+	text-align: right;
+	border-radius: 5px;
+}
+#PayPal_btn
+{
+	width: 200px;
+	float: right;
+  display: inline;
+}
+
+#bill_link{
+	padding: 7px 57px;
+	border-radius: 20px;
+	float: right;
+	font-weight: bold;
+	margin-top: 10px;
+	display: inline-block;
+}
+/*  ========================= navbar Starts======================================== */
+#menu{
+background-color: #c90128;
+border: none;
+}
+
+#menu ul li {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:15px;
+	color:#000000;
+}
+#menu ul li a {
+	text-decoration:none;
+	font-family:Arial, Helvetica, sans-serif;
+	color:white;
+	font-weight: bold;
+}
+
+#menu ul li a:hover{
+text-decoration:none;
+color:black;
+}
+
+/*  ========================= carousel Starts======================================== */
+#carousel{
+	margin: 0 ;
+	padding: 0px;
+	margin-top: 50px;
+}
+
+/*  ========================= carousel-2 Starts======================================== */
+#carousel2{
+	margin: 0 ;
+	padding: 0px;
+	margin-top: 0px;
+	margin: auto;
+	 background: white;
+}
+#carousel2_img{
+	width: 90%;
+	height: 450px;
+	margin: auto;
+	border-radius: 5px;
+	border: 3px solid white;
+}
+.carousel-inner{
+	/* background: #E9E9E9; */
+
+}
+
+/*  ========================= wellcome_message Starts======================================== */
+#wellcome_message{
+	background: #E9E9E9;
+	padding-left: 300px;
+	padding-right:300px;
+	padding-top: 0px;
+	padding-bottom: 20px;
+	margin: 0px;
+}
+
+#wellcome_message h2{
+  text-transform: uppercase;
+	font-size: 20px;
+  font-weight: bold;
+  padding: 5px 10px 10px 5px;
+  color: #005E5A;
+}
+
+/*  ========================= Login Section Starts ======================================== */
+#login_section{
+background: #DFE3EE;
+padding: 10px;
+}
+
+#login_form{
+ background: #DFE3EE;
+ padding: 50px 150px;
+}
+
+#login_form h1{
+	text-align: center;
+	font-weight: bold;
+}
+#login , #password{
+	border-radius: 20px;
+	margin-top: 30px;
+}
+#forget_password {
+	float: right;
+	text-decoration: none;
+	color: #a64bf4;
+	margin: 5px;
+}
+#login_btn {
+	border-radius: 20px;
+	padding: 10px;
+	padding-bottom: 30px;
+	font-weight: bold;
+	font-size: 16px;
+	text-transform: uppercase;
+}
+#clear_feilds{
+	border-radius: 20px;
+	padding-bottom: 30px;
+	font-size: 14px;
+	margin-top: 10px;
+	width: 100px;
+	display: block;
+}
+
+/*  ========================= SignUp Section Starts======================================== */
+#SignUp_section{
+background: #DFE3EE;
+padding: 10px;
+}
+
+#SignUp_form{
+ background: #DFE3EE;
+ padding: 50px 150px;
+}
+
+#SignUp_form h1{
+	text-align: center;
+	font-weight: bold;
+}
+
+#login , #password ,#fname, #lname ,#cpassword ,#question, #answer{
+	border-radius: 20px;
+	margin-top: 30px;
+}
+
+#SignUp_btn {
+	border-radius: 20px;
+	padding: 10px;
+	padding-bottom: 30px;
+	font-weight: bold;
+	font-size: 16px;
+	text-transform: uppercase;
+}
+
+#clear_feilds{
+	border-radius: 20px;
+	padding-bottom: 30px;
+	font-size: 14px;
+	margin-top: 10px;
+	width: 100px;
+	display: block;
+}
+
+/*  ========================= Food Zone Section Starts ======================================== */
+#foodZone{
+	background: #E9E9E9;
+	padding-top: 30px;
+}
+#foodZone_internal{
+	background: #E9E9E9;
+  padding: 0px 0px;
+}
+#foodZone_internal h1{
+	text-align: center;
+  font-weight: bold;
+}
+#foodzone_link{
+	border-radius: 0px;
+	padding: 5px 30px;
+	font-weight: normal;
+	font-size: 16px;
+	display: block;
+	width: 200px;
+	margin: 10px auto;
+}
+#foodzone_link:hover{
+ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/*  ========================= Food Zone Page Starts ======================================== */
+#wrap{
+	margin-top: 50px;
+}
+#wrap h1{
+	text-align: center;
+	font-weight: bold;
+}
+#sidebar{
+  background: white;
+  padding: 0px;
+}
+#sidebar h3{
+	margin-top: 0px;
+	margin-bottom: 0px;
+	background: #c90128;
+	text-align: center;
+	padding: 10px;
+	color: white;
+}
+#sidebar a{
+	display: block;
+	width: 100%;
+	padding: 10px;
+	font-size: 14px;
+	color: black;
+	border-bottom: 1px dotted gray;
+}
+#sidebar a:hover{
+	background: #c90128;
+	color: white;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+#content{
+
+}
+#Product_box{
+	background-color: #fff;
+  border: #eee solid 1px;
+	margin-top: 0px;
+	margin-bottom: 20px;
+	margin-left: 20px;
+	margin-right: 20px;
+	padding: 0px;
+}
+#Product_name{
+  text-align: center;
+	color: maroon;
+}
+#Product_image{
+  width: 100%;
+	height: 300px;
+	display: block;
+	margin: auto;
+}
+#Product_desc{
+	text-align: justify;
+	font-size: 12px;
+	margin: 5px;
+}
+#Product_footer{
+	background:#c90128;
+	padding: 10px;
+	color: white;
+	font-weight: bold;
+}
+
+#foods_category{
+	width: 100%;
+	padding: 10px;
+}
+#categ_btn{
+	border-radius: 0px;
+	background: #c90128;
+	margin-top: 10px;
+}
+
+/*  ========================= Contact us Starts ======================================== */
+#ContactUs_section{
+	background: #DFE3EE;
+	padding: 10px;
+}
+#ContactUs_form , #Social , #location{
+	background: #DFE3EE;
+  padding: 50px 50px;
+}
+#ContactUs_form h1, #Social h1 , #location h1{
+	text-align: center;
+	font-weight: bold;
+}
+#name , #email{
+	border-radius: 20px;
+	margin-top: 20px;
+}
+#message{
+	border-radius: 5px;
+	margin-top: 20px;
+	height: 100px;
+	background: #F2F4F4;
+}
+#Contact_btn {
+	border-radius: 20px;
+	padding: 10px;
+	padding-bottom: 30px;
+	font-weight: bold;
+	font-size: 16px;
+	text-transform: uppercase;
+}
+
+#location_wording{
+	margin-top: 70px;
+	font-size: 20px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#icons{
+	background-color: white;
+	padding: 10px;
+	margin: 5px;
+	width: 80px;
+	height: 80px;
+	border-radius: 150px;
+	text-align: center;
+}
+#icons a{ text-decoration: none;}
+#icons:hover{
+	background-color: blue;
+	color: white;
+}
+
+/*  ========================= Footer Starts ======================================== */
+#footer{
+border: none;
+background:#2d3d5a;
+color: white;
+border-radius: 0px;
+margin: 0px;
+padding: 15px;
+}
+
+#footer a{
+	color: white;
+	text-decoration: none;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+/*  ========================= member-index Page Starts ======================================== */
+#inbox_wrapper{
+	margin-top: 50px;
+}
+
+#sidenav{
+	 height: 100%; /* Full-height: remove this if you want "auto" height */
+	  /* Set the width of the sidebar */
+	 position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+	 z-index: 1; /* Stay on top */
+	 top: 0; /* Stay at the top */
+	 left: 0;
+	 background-color: #670011;
+	 overflow-x: hidden; /* Disable horizontal scroll */
+	 padding: 0px;
+	 padding-top: 20px;
+	 margin-top: 50px;
+}
+#sidenav a {
+    /* padding: 6px 8px 6px 16px; */
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    display: block;
+}
+
+/* When you mouse over the navigation links, change their color */
+#sidenav a:hover {
+    color: #f1f1f1;
+		background:#669961;
+}
+
+#inbox_main{
+	margin-left: 224px;
+	background-color: #f1f1f1;
+
+}
+
+
+#opassword , #cpassword , #npassword ,#btn_change ,#sAddress , #city, #box , #mNumber ,#lNumber, #btn_add{
+	border-radius: 20px;
+	margin-top: 20px;
+}

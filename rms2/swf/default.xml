@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+	flShow Carousel 2.0 configuration file
+	Please visit http://www.flshow.net/ for more info
+-->
+
+<slide_show>
+	<options>
+		<background>#FFFFFF</background>		<!-- #RRGGBB, transparent -->
+	</options>
+
+	<photo href="#" target="_self">./images/pizza1.jpg</photo>
+	<photo href="#" target="_self">./images/pizza2.jpg</photo>
+	<photo href="#" target="_self">./images/pizza3.jpg</photo>
+	<photo href="#" target="_self">./images/pizza4.jpg</photo>
+</slide_show>

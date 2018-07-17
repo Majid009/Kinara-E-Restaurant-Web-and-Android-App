@@ -1,0 +1,92 @@
+
+#login , #password{
+	border-radius: 0px;
+	padding: 10px;
+	border: 0px;
+}
+#login_btn{
+	border-radius: 0px;
+	background: limegreen;
+	border: 0px;
+}
+#title{
+	color: white ;
+	text-align: center;
+	background: purple;
+	margin: 0px;
+	padding: 10px;
+}
+#subtitle{
+	color: white ;
+	text-align: center;
+	background: purple;
+	margin: 0px;
+	padding: 10px;
+	border-top: 2px dotted white;
+}
+#subtitle2{
+	color: white ;
+	text-align: center;
+	background: skyblue;
+	margin: 0px;
+	padding: 10px;
+	width: 950px;
+	/* border-top: 2px dotted white; */
+}
+#navbar{
+	/* background:skyblue; */
+	background: #8C88F5 ;
+	color:white;
+}
+#navbar li a {
+	color: white;
+	font-weight: bold;
+	/* border-bottom: 2px solid transparent; */
+}
+#navbar li a:active , #navbar li a:visited  {
+	color: white;
+	background: purple;
+	border-radius: 0px;
+	/* border-bottom: 2px solid white; */
+}
+#navbar li a:hover  {
+	color: white;
+	background: purple;
+	border-radius: 0px;
+	/* border-bottom: 2px solid white; */
+}
+
+.err {
+	color: #FF9900;
+}
+th {
+	font-weight: bold;
+	text-align: left;
+}
+#page{
+width:1000px;
+margin:0 auto;
+margin-top:50px;
+padding-top:0px;
+background: beige;
+height:auto;
+}
+#header{
+text-align:center;
+background:#f9dec7;
+}
+#container{
+border:#bd6f2f solid 1px;
+padding:4px 6px 2px 6px;
+width:970px;
+margin:0 auto;
+background:#fff6f3;
+font-size:12px;
+text-align:justify;
+margin-top:20px;
+}
+#footer{
+margin:0 auto;
+margin-top:20px;
+background:#f9dec7;
+}
