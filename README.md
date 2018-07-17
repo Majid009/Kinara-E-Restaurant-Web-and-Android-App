@@ -1,5 +1,5 @@
 # Kinara-E-Restaurant-Web-App-
-Kinara E-Restaurant is restaurant management system in PHP alongwith Android App. Using this system user can order food , reserve room. User can leave his/her reviews about foods and service as well. There is a Recommender system to recommend foods.       
+Kinara E-Restaurant is restaurant management system in PHP alongwith Android App. Using this system user can order food , reserve room. User can leave his/her reviews about foods and service as well. There is a Recommender system to recommend foods. User can Track the location of delivery boy using android app.    
 
 # Usage
 # Website Settings
